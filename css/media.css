@@ -1,0 +1,177 @@
+/*====================== extra small device (portrait phones, less than 576px) =======================*/
+
+@media(max-width: 575px) {
+    #banner-area {
+        padding-top: 121px;
+        padding-bottom: 167px;
+    }
+
+    .navbar-collapse {
+        background: #132F5F;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar-toggler span {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .navbar-nav {
+        padding-right: 0;
+    }
+
+    .banner-item h1 {
+        font-size: 29px;
+    }
+
+    .banner-item p {
+        padding: 0;
+        padding-bottom: 29px;
+    }
+
+    #banner-area .slick-dots {
+        bottom: -120px;
+    }
+
+    .story-left {
+        padding-bottom: 30px;
+    }
+
+    .team-head-part h3 {
+        font-size: 20px;
+    }
+
+    .card-part .card {
+        margin-bottom: 20px;
+    }
+
+    #ceo-des-area {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .ceo-des p {
+        padding: 0 50px;
+        padding-top: 44px;
+    }
+
+    .footer-part {
+        text-align: center;
+    }
+
+    .form-part {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom-left .nav .nav-item .nav-link {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+
+    .footer-top-3_3 {
+        text-align: center;
+    }
+
+    .footer-bottom-left .nav {
+        padding-left: 107px;
+    }
+
+    .footer-bottom-right p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+}
+
+
+
+/*=================== Small devices (landscape phones, 576px and up) ====================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner-area {
+        padding-top: 161px;
+        padding-bottom: 160px;
+    }
+
+    .banner-item p {
+        padding: 0;
+        padding-bottom: 29px;
+    }
+
+    .navbar-collapse {
+        background: #132F5F;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .story-left {
+        padding-bottom: 30px;
+    }
+
+    .expert-people p {
+        padding: 0 20px;
+    }
+
+    .card-part .card {
+        margin-bottom: 20px;
+    }
+
+    .ceo-des p {
+        padding: 0 50px;
+        padding-top: 44px;
+    }
+
+    .form-part {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom-right.text-right {
+        text-align: left !important;
+        padding-top: 20px;
+    }
+}
+
+/*=================== Medium devices (tablets, 768px and up) ==================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner-area {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .banner-item p {
+        padding: 0;
+        padding-bottom: 29px;
+    }
+
+    #banner-area .slick-dots {
+        bottom: -100px;
+    }
+
+    .navbar-collapse {
+        background: #132F5F;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .story-left.text-center {
+        padding-top: 60px;
+    }
+
+    .card-part .card {
+        margin-bottom: 20px;
+    }
+
+    .ceo-des p {
+        padding: 0;
+        padding-top: 44px;
+    }
+
+    #ceo-des-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .form-part {
+        margin-bottom: 20px;
+    }
+}
